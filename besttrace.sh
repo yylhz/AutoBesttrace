@@ -22,7 +22,7 @@ ip_list=(119.147.134.44 117.34.14.44 150.138.151.44 220.170.186.44 58.211.137.44
 ip_addr=()
 # ip_len=${#ip_list[@]}
 
-for i in {0..5}
+for i in {0..19}
 do
 	echo ${ip_addr[$i]}
 	./besttrace -q 1 ${ip_list[$i]}
